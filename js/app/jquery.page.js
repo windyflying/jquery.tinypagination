@@ -142,8 +142,7 @@ var ms = {
             current = parseInt($elem.prev('input').val(), 10);
             pageCount = parseInt(settings.pageCount, 10);
             if (!$.isNumeric(current) || !$.isNumeric(pageCount)) {
-              ret = false;
-              return ret;
+              return !ret;
             }
             
             // 对小于等于零的输入进行转换，使分页程序正确跳转
@@ -154,7 +153,7 @@ var ms = {
             }
             break;
           default:
-            ret = false;
+            ret = !ret;
         }
         return ret;
       };
