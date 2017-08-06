@@ -14,7 +14,7 @@ require(['jquery.page', 'jquery'], function () {
     pageCount: 999,
     current: 100,
     // 默认关闭跳页
-    // allowedGo: true,
+    allowedGo: false,
     preTxt: 'GoTo',
     goBtnTxt: 'GO',
     backFn: function (pageNuber) {
