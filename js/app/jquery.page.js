@@ -112,9 +112,13 @@ var ms = {
 
     // 如果开启跳页功能且总页数大于等于2页,则创建跳页元素
     if (settings.allowedGo && settings.pageCount >= 2) {
-      obj.append('<div class="go-to-wrap">' + settings.preTxt  + 
-        '<input type="text"/>' + '<a class="go-to-btn" href="#">' + 
-         settings.goBtnTxt + '</a></div>'
+      obj.append(
+        '<div class="go-to-wrap">' + settings.preTxt  + 
+          '<input type="text"/>' + 
+          '<a class="go-to-btn" href="#">' + 
+            settings.goBtnTxt + 
+          '</a>' +
+        '</div>'
       );
     }
   },
