@@ -1,60 +1,72 @@
 .tiny-paging {
-	margin-top: 30px;
-	text-align: right;
+  margin-top: 30px;
+  text-align: right;
 }
+
 .tiny-paging * {
-	display: inline-table;
-	box-sizing: border-box;
-	line-height: 30px;
-    margin-left: -1px;
-    margin-left: -1px;
-	vertical-align: middle;
-	font-size: 13px;
-    font-weight: bold;
-    text-align: center;
+  display: inline-table;
+  box-sizing: border-box;
+  line-height: 30px;
+  margin-left: -1px;
+  margin-left: -1px;
+  vertical-align: middle;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
 }
+
 .tiny-paging a,
-.tiny-paging span { width: 34px;}
+.tiny-paging span {
+  width: 34px;
+}
+
 .tiny-paging .go-to-wrap input {
-	width: 64px;
-	height: 26px;
-	padding: 0;
-	margin-left: 10px;
-	margin-right: 10px;
-	text-align: center;
-	border-style: none;
-	border: 1px solid #e3e4e8;
-	outline: 0;
-	
+  width: 64px;
+  height: 26px;
+  padding: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  border-style: none;
+  border: 1px solid #e3e4e8;
+  outline: 0;
 }
+
 .tiny-paging a {
-	border: 1px solid #ddd;
-	text-decoration: none;
-	color: #337ab7;
-    transition: background-color .3s ease, color .3s ease;
+  border: 1px solid #ddd;
+  text-decoration: none;
+  color: #337ab7;
+  transition: background-color .3s ease, color .3s ease;
 }
+
 .tiny-paging a:hover {
-    color: #fff;
-    background-color: #14b0ee;
-    transition: all .3s ease, color .3s ease;
+  color: #fff;
+  background-color: #14b0ee;
+  transition: all .3s ease, color .3s ease;
 }
+
 .tiny-paging .current {
-	background-color: #14b0ee;
-	border: 1px solid #14b0ee;
-	color: #fff;
+  background-color: #14b0ee;
+  border: 1px solid #14b0ee;
+  color: #fff;
 }
+
 .tiny-paging .disabled {
-	color: #bfbfbf;
-	background: #f2f2f2;
-	border: 1px solid #bfbfbf;
-	cursor: not-allowed;
+  color: #bfbfbf;
+  background: #f2f2f2;
+  border: 1px solid #bfbfbf;
+  cursor: not-allowed;
 }
-.tiny-paging .go-to-wrap { padding-left: 10px;} 
+
+.tiny-paging .go-to-wrap {
+  padding-left: 10px;
+}
+
 .tiny-paging .go-to-btn {
-    width: 50px;
-	border: 1px solid #14b0ee;
-	padding: 0 9px;
-	line-height: 24px;
-	background-color: #14b0ee;
-	color: #fff;
+  width: 50px;
+  border: 1px solid #14b0ee;
+  padding: 0 9px;
+  line-height: 24px;
+  background-color: #14b0ee;
+  color: #fff;
 }
