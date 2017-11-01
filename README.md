@@ -1,2 +1,2 @@
 # jquery.tinypagination
-a usefull jquery plugin.
+a useful jquery plugin.
